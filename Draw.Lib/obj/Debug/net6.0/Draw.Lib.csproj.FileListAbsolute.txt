@@ -1,0 +1,12 @@
+/Users/jonasvogel/RiderProjects/ChaosGame/Draw.Lib/bin/Debug/net6.0/Draw.Lib.deps.json
+/Users/jonasvogel/RiderProjects/ChaosGame/Draw.Lib/bin/Debug/net6.0/Draw.Lib.dll
+/Users/jonasvogel/RiderProjects/ChaosGame/Draw.Lib/bin/Debug/net6.0/Draw.Lib.pdb
+/Users/jonasvogel/RiderProjects/ChaosGame/Draw.Lib/obj/Debug/net6.0/Draw.Lib.csproj.AssemblyReference.cache
+/Users/jonasvogel/RiderProjects/ChaosGame/Draw.Lib/obj/Debug/net6.0/Draw.Lib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jonasvogel/RiderProjects/ChaosGame/Draw.Lib/obj/Debug/net6.0/Draw.Lib.AssemblyInfoInputs.cache
+/Users/jonasvogel/RiderProjects/ChaosGame/Draw.Lib/obj/Debug/net6.0/Draw.Lib.AssemblyInfo.cs
+/Users/jonasvogel/RiderProjects/ChaosGame/Draw.Lib/obj/Debug/net6.0/Draw.Lib.csproj.CoreCompileInputs.cache
+/Users/jonasvogel/RiderProjects/ChaosGame/Draw.Lib/obj/Debug/net6.0/Draw.Lib.dll
+/Users/jonasvogel/RiderProjects/ChaosGame/Draw.Lib/obj/Debug/net6.0/refint/Draw.Lib.dll
+/Users/jonasvogel/RiderProjects/ChaosGame/Draw.Lib/obj/Debug/net6.0/Draw.Lib.pdb
+/Users/jonasvogel/RiderProjects/ChaosGame/Draw.Lib/obj/Debug/net6.0/ref/Draw.Lib.dll

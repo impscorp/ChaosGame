@@ -1,0 +1,37 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="450" d:DesignHeight="550"
+        x:Class="ChaosGame.MainWindow"
+        Title="ChaosGame">
+
+        <Window.Styles>
+                <Style Selector="Window">
+                        <Setter Property="Width" Value="650" />
+                        <Setter Property="Height" Value="550" />
+                </Style>
+        </Window.Styles>
+        
+        <Grid>
+                <Border Background="Transparent" />
+                <Canvas Name="canvas" Width="400" Height="400" Background="Transparent" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,0,0,0"  />
+                <TextBlock Name="TextBlock" Text="" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,0,0,0" />
+                <Slider Name="Slider" Tapped="Slider_OnPointerPressed" Minimum="0.001" Maximum="250" Value="125" TickFrequency="25" TickPlacement="BottomRight" Ticks="250,125,375 " IsSnapToTickEnabled="False" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,0" Width="400" />
+                <TextBox Name="Iterations" LostFocus="Iterations_OnLostFocus" Text="1000" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,50,0,0" Width="200" />
+                <Button Content="Clear" Click="ButtonClick_ClearCanvas" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,110,0,0" Width="100"/>
+                <Button Content="Stop" Click="ButtonClick_Stop" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,80,0,0" Width="100"/>
+                <Button Content="Experiment" Name="Button" Click="Button_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,140,0,0" Width="100"/>
+                <ComboBox Name="ComboBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,20,0,0" Width="200" SelectionChanged="ComboBox_OnSelectionChanged">
+                        <ComboBoxItem Content="Generate triangle" />
+                        <ComboBoxItem Content="Generate pentagon" />
+                        <ComboBoxItem Content="Generate hexagon" />
+                        <ComboBoxItem Content="Generate octagon" />
+                        <ComboBoxItem Content="Generate square" />
+                        <ComboBoxItem Content="Generate square 2" />
+                        <ComboBoxItem Content="Generate square 3" />
+                </ComboBox>
+        </Grid>
+        
+        
+</Window>

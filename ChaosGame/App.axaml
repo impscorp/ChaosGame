@@ -1,0 +1,10 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="ChaosGame.App">
+    <Application.Styles>
+        <FluentTheme Mode="Dark"/>
+    </Application.Styles>
+
+    <Application.Name>Chaos Game</Application.Name>
+
+</Application>
